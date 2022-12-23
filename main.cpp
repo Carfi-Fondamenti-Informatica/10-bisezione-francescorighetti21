@@ -20,7 +20,7 @@ int main() {
                   }else if ((f(a)*f(x))>0){
                      a=x;
                   }
-                            err =(abs(b-a)/2));
+                            err =(abs((b-a)/2));
                       }
                       } while (err >=0.00002);
                       x= x*10000;
